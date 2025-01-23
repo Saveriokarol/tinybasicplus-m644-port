@@ -46,7 +46,7 @@ Usage: RTWD <addr> <count>
 
 Functions:
 - TWR(): Read value from TWI bus.
-BUG: Doesn't work if you dont add a unneccesary value into the function!
+BUG: Doesn't work if you don't add a unneccesary value into the function!
 
 ## Installation
 
