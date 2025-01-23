@@ -1,14 +1,14 @@
-## TinyBasicPlus for ATmega644xx (MightyCore Port)
+# TinyBasicPlus for ATmega644xx (MightyCore Port)
 
 TinyBasicPlus is a lightweight BASIC interpreter tailored for microcontroller applications. This repository provides a dedicated port of TinyBasicPlus for the ATmega644xx series, leveraging the capabilities of the MightyCore platform. This project is aimed at hobbyists and developers seeking to integrate an interactive BASIC environment on their ATmega-based systems.
 
-# Version
+## Version
 
 Current Release: **0.15.1**
 
 This version introduces new commands and functions that enhance usability and provide extended capabilities for user programs.
 
-# Key Features
+## Key Features
 
 Designed specifically for **ATmega644xx series** using **MightyCore Bootloader**.
 
@@ -18,11 +18,11 @@ Supports interactive BASIC programming with essential control and arithmetic fun
 
 Expanded with custom commands tailored for versatile hardware operations.
 
-# What's New in 0.15.1
+## What's New in 0.15.1
 
 This release introduces the following new commands and functions:
 
-# Commands
+## Commands
 
 Screen Utils:
 - CLS: Clear the terminal screen for better readability.
@@ -44,7 +44,7 @@ Functions:
 - TWR(): Read value from TWI bus.
 BUG: Doesn't work if you dont add a unneccesary value into the function!
 
-# Installation
+## Installation
 
 Prerequisites:
 - Arduino IDE (Version 1.8 or later recommended).
@@ -61,19 +61,19 @@ Configure the board settings for MightyCore (Ext. 16MHz, 5V).
 
 3. Upload the program to your ATmega644xx microcontroller.
 
-# Usage
+## Usage
 
 Once installed, connect to the microcontroller using a serial terminal (e.g., Arduino Serial Monitor or PuTTY). The interpreter is ready to execute BASIC commands interactively. Try the new commands and explore hardware interaction with ease.
 
-# Contributing
+## Contributing
 
 Contributions to improve this port or add new functionality are welcome! Please submit an issue or pull request to collaborate.
 
-# License
+## License
 
 This project is open-source and available under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-# Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 [MightyCore](https://github.com/MCUdude/MightyCore) for providing robust ATmega support.
