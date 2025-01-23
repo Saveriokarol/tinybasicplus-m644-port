@@ -6,7 +6,11 @@ TinyBasicPlus is a lightweight BASIC interpreter tailored for microcontroller ap
 
 Current Release: **0.15.1**
 
-This version introduces new commands and functions that enhance usability and provide extended capabilities for user programs.
+This version introduces some OEM commands and functions that enhance usability and provide extended capabilities for user programs.
+This sketch is pre-configured with:
+- SD/MMC Card support (CS = 4)
+- EEPROM support (ROM size auto detecting)
+- TWI/I2C support (Included Wire.h)
 
 ## Key Features
 
